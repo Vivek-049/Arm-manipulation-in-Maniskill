@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ManiSkill data
+.maniskill/
+data/
+demos/
+*.h5
+*.zarr
+
+# Training outputs
+results/
+runs/
+outputs/
+logs/
+tensorboard/
+wandb/
+*.pt
+*.pth
+*.ckpt
+
+# Videos (optional - comment out if you want to commit videos)
+*.mp4
+*.avi
+*.gif
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.log
+*.tmp
+
+# RunPod specific
+/workspace/
+
+# System files
+Thumbs.db
+.DS_Store
